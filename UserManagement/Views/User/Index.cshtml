@@ -1,0 +1,38 @@
+﻿@model List<User>
+
+@{
+    ViewData["Title"] = "User Page";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="mb-0">User List</h2>
+        <a class="btn btn-primary" href="/User/Create">Add New User</a>
+    </div>
+
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Phone</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var u in Model)
+            {
+                <tr>
+                    <td>@u.Name</td>
+                    <td>@u.Surname</td>
+                    <td>@u.Cellphone</td>
+                    <td>
+                        <a class="btn btn-sm btn-warning me-2" href="/User/Edit/@u.Id">Edit</a>
+                        <a class="btn btn-sm btn-danger" href="/User/Delete/@u.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
