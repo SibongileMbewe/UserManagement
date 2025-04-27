@@ -39,7 +39,7 @@ A simple ASP.NET MVC web application that allows for adding, editing, and managi
 
 ## Unit Tests
 
-Basic unit tests are available under `/Tests` folder (see `UserServiceTests.cs`).
+Basic unit tests are available in the UserManagement.Tests folder (see UserServiceTests.cs) on the masterV2 branch.
 
 ## Time Taken
 
