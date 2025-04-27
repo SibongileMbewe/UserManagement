@@ -66,4 +66,10 @@
     <Surname>Ngxongo</Surname>
     <Cellphone>+78952154151</Cellphone>
   </User>
+  <User>
+    <Id>1bdf2178-ab1c-4892-8f83-c50c839ef982</Id>
+    <Name>Hlelo</Name>
+    <Surname>Nkosi</Surname>
+    <Cellphone>6842894897</Cellphone>
+  </User>
 </ArrayOfUser>

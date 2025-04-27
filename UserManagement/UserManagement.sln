@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Web", "UserManagement.Web.csproj", "{0D99A22E-BA49-4A26-96A0-6127C86FDAA1}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Application", "..\UserManagement.Application\UserManagement.Application.csproj", "{8A504790-EA9B-4508-834D-9F0D76177740}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Infrastructure", "..\UserManagement.Infrastructure\UserManagement.Infrastructure.csproj", "{2810DC05-E298-45D8-B874-6D4250F27774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Tests", "..\UserManagement.Tests\UserManagement.Tests.csproj", "{A2EB47DA-5FAB-4C03-BD00-6BB73BF33F31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2810DC05-E298-45D8-B874-6D4250F27774}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2810DC05-E298-45D8-B874-6D4250F27774}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2810DC05-E298-45D8-B874-6D4250F27774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2EB47DA-5FAB-4C03-BD00-6BB73BF33F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EB47DA-5FAB-4C03-BD00-6BB73BF33F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EB47DA-5FAB-4C03-BD00-6BB73BF33F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EB47DA-5FAB-4C03-BD00-6BB73BF33F31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
